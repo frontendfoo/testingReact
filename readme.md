@@ -1,7 +1,7 @@
-# Example React app with Parcel, Tailwind & Context.
+# Testing React: Components, Containers and Custom Hooks.
 
 Follow the tutorial here:  
-https://medium.com/@frontendfoo/react-app-parcel-tailwind-context-store-61d97565ad07
+https://medium.com/@frontendfoo/testing-react-components-containers-and-custom-hooks-28c2505b6867
 
 Setup
 

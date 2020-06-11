@@ -36,5 +36,16 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "tailwindcss": "^1.2.0"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "src/**/*.{js,jsx}",
+      "!**/__MOCKS__/**"
+    ],
+    "moduleNameMapper": {
+      "\\.(jpg|jpeg)$": "<rootDir>/__mocks__/fileMock.js",
+      "\\.(css|less|scss)$": "<rootDir>/__mocks__/styleMock.js",
+      "^store$": "<rootDir>/src/store/index.js"
+    }
   }
 }

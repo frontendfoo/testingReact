@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The App Component match snapshot with prop variation 1 1`] = `
+<div>
+  <h1>
+    login
+  </h1>
+  <input
+    className="w-full mt-8"
+    placeholder="Enter your name here..."
+    type="text"
+  />
+  <div>
+    <button
+      className="mt-12"
+    >
+      Login!
+    </button>
+  </div>
+</div>
+`;
+
+exports[`The App Component match snapshot with prop variation 2 1`] = `
+<div>
+  <h1>
+    login
+  </h1>
+  <input
+    className="w-full mt-8"
+    onChange=""
+    placeholder="Enter your name here..."
+    type="text"
+    value=""
+  />
+  <div>
+    <button
+      className="mt-12"
+      disabled={false}
+      onClick=""
+    >
+      Login!
+    </button>
+  </div>
+</div>
+`;
+
+exports[`The App Component match snapshot with prop variation 3 1`] = `
+<div>
+  <h1>
+    login
+  </h1>
+  <input
+    className="w-full mt-8"
+    onChange="Function setName"
+    placeholder="Enter your name here..."
+    type="text"
+    value="Test Name"
+  />
+  <div>
+    <button
+      className="mt-12"
+      disabled={true}
+      onClick="Function submitName"
+    >
+      Login!
+    </button>
+  </div>
+</div>
+`;

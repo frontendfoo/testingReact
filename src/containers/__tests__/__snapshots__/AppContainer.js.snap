@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The App Container Component should map the props to App component 1`] = `
+Object {
+  "disabled": false,
+  "handleSetName": [MockFunction handleSetName],
+  "handleSubmit": [MockFunction handleSubmit],
+  "name": "Test Name",
+}
+`;
